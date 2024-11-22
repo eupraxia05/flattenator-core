@@ -1,0 +1,12 @@
+[package]
+name = "flattenator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[lib]
+name = "flattenator"
+test = true
+plugin = false
+path = "src/lib.rs"
